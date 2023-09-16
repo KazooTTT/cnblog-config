@@ -2,8 +2,27 @@
 <script>
   const opts = {
     theme: {
-      name: 'geek',
+      name: "geek",
+      avatar: "https://pic.cnblogs.com/avatar/3037697/20230125141702.png",
+      title: "KazooTTT Blog",
+      log: "每天变好一点点",
+      headerBackground: "https://s2.loli.net/2023/09/16/kf82qCrz7oZeOnm.jpg"
     },
-  }
-  $.awesCnb(opts)
+    github: {
+      enable: true,
+      color: "#ffb3cc",
+      url: "https://github.com/KazooTTT",
+      headerBackground: "",
+    },
+    signature: {
+      enable: true,
+      contents: ["每天变好一点点"],
+    },
+    darkMode: {
+      enable: true,
+      autoDark: true,
+      autoLight: true
+    },
+  };
+  $.awesCnb(opts);
 </script>
